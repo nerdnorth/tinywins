@@ -1,0 +1,1 @@
+<?php // Simple Wp Sitemap

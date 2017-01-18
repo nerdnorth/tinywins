@@ -1,0 +1,39 @@
+<div style="height: 0; width: 0; position: absolute; visibility: hidden">
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"/>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.07 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"/>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="shadowMatrixInner1"/>
+            </feMerge>
+        </filter>
+    </defs><symbol id="book" viewBox="0 0 264 340">
+    <title>book</title>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g class="book" sketch:type="MSLayerGroup">
+            <path d="M13.2403634,2.45942773 C13.2322582,1.35009322 14.1203108,0.450799912 15.2237214,0.450799912 L261.719915,0.450799912 C262.823399,0.450799912 263.717949,1.35296781 263.717949,2.45942773 L263.717949,322.889309 C263.717949,323.998644 262.819504,324.897937 261.720707,324.897937 L17.5934646,324.897937 C16.4904184,324.897937 15.5896312,323.995769 15.581547,322.889309 L13.2403634,2.45942773 Z" class="book__back-cover" fill="#3FCFD5" sketch:type="MSShapeGroup"/>
+            <path d="M15.5962228,0.44711187 C15.5962228,0.44711187 15.1973692,0.162946778 13.8713475,1.09663208 C8.59787401,4.80981792 0,16.0355969 0,16.0355969 L15.5962228,16.0355969 L15.5962228,0.44711187 Z" class="book__back-binding" fill="#1E9A98" sketch:type="MSShapeGroup"/>
+            <rect class="book__page" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="15.5962228" y="7.53479853" width="241.032534" height="311.695939"/>
+            <rect class="book__page" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="12.7605459" y="10.368398" width="241.032534" height="311.695939"/>
+            <rect class="book__page" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="9.92486904" y="13.2019974" width="241.032534" height="311.695939"/>
+            <rect class="book__page" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="7.08919217" y="16.0355969" width="241.032534" height="311.695939"/>
+            <rect class="book__page" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="4.2535153" y="18.8691963" width="241.032534" height="311.695939"/>
+            <rect class="book__front-cover" fill="#3FCFD5" sketch:type="MSShapeGroup" x="0" y="16.0355969" width="248.121726" height="323.030337" rx="2"/>
+            <path d="M22.6854149,16.0355969 L0,16.0355969 L0,337.066078 C0,338.167706 0.898794985,339.065934 2.00751479,339.065934 L22.6854149,339.065934 L22.6854149,16.0355969 Z" class="book__front-binding" fill="#1E9A98" filter="url(#filter-8)" sketch:type="MSShapeGroup"/>
+        </g>
+    </g>
+</symbol></svg>
+</div>

@@ -1,0 +1,1641 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Logic Hop\n"
+"POT-Creation-Date: 2016-10-02 16:13-0400\n"
+"PO-Revision-Date: 2016-10-02 16:15-0400\n"
+"Last-Translator: Logic Hop <info@logichop.com>\n"
+"Language-Team: Logic Hop <info@logichop.com>\n"
+"Language: es_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: logichop.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin.php:93 admin/partials/settings.php:54
+msgid "Domain Name"
+msgstr "Nombre de dominio"
+
+#: admin/admin.php:94 admin/admin.php:276
+#, php-format
+msgid "Recommended: %s"
+msgstr "Recomendado: %s"
+
+#: admin/admin.php:100
+msgid "API Key"
+msgstr "Clave API"
+
+#: admin/admin.php:101
+msgid ""
+"Need an API Key? Visit <a href=\"https://logichop.com\" target=\"_blank"
+"\">LogicHop.com</a>."
+msgstr ""
+"¿Necesitas una API Key? Visite <a href=\"https://logichop.com\" target="
+"\"_blank\">LogicHop.com</a>."
+
+#: admin/admin.php:107
+msgid "Cookie Duration"
+msgstr "Duración de la galleta"
+
+#: admin/admin.php:108
+msgid "Length of time Logic Hop data stored in user's browser."
+msgstr ""
+"Duración del tiempo de datos Logic Hop almacenados en el navegador del "
+"usuario."
+
+#: admin/admin.php:113
+msgid "Never Expire"
+msgstr "Nunca expira"
+
+#: admin/admin.php:117
+msgid "One Year"
+msgstr "Un año"
+
+#: admin/admin.php:121
+msgid "One Month"
+msgstr "Un mes"
+
+#: admin/admin.php:125
+msgid "One Week"
+msgstr "Una semana"
+
+#: admin/admin.php:129
+msgid "One Day"
+msgstr "Un día"
+
+#: admin/admin.php:133
+msgid "One Hour"
+msgstr "Una hora"
+
+#: admin/admin.php:139
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: admin/admin.php:140
+msgid ""
+"<em>(Optional)</em> Enables <a href=\"https://analytics.google.com\" target="
+"\"_blank\">Google Analytics</a> tracking."
+msgstr ""
+"<em>(Opcional)</em> Habilita <a href=\"https://analytics.google.com\" target="
+"\"_blank\">Google Analytics</a> rastreo."
+
+#: admin/admin.php:146
+msgid "Javascript Referrer"
+msgstr "Javascript Referente"
+
+#: admin/admin.php:147
+msgid ""
+"Restrict AJAX requests to specific domain. Leave blank to allow from all."
+msgstr ""
+"Restringir AJAX peticiones al dominio específico. Dejar en blanco para "
+"permitir de todo."
+
+#: admin/admin.php:149
+msgid "Enable Referrer"
+msgstr "Habilitar Referente"
+
+#: admin/admin.php:153
+msgid "Javascript Tracking"
+msgstr "Javascript Rastreo"
+
+#: admin/admin.php:154
+msgid ""
+"<em>(Optional)</em> Recommended when using Cache Plugins. <a href=\"https://"
+"logichop.com/docs/using-logic-hop-with-javascript/\" target=\"_blank\">Learn "
+"More</a>."
+msgstr ""
+"<em>(Opcional)</em> Recomienda usar Plugins de Cache. <a href=\"https://"
+"logichop.com/docs/using-logic-hop-with-javascript/\" target=\"_blank"
+"\">Aprender más</a>."
+
+#: admin/admin.php:156
+msgid "Enable Javascript Tracking"
+msgstr "Seguimiento tener Javascript"
+
+#: admin/admin.php:278
+msgid ""
+"Referrer not found in $_SERVER['HTTP_REFERER']. Please check with your "
+"hosting company."
+msgstr ""
+"Referente no encuentra en $_SERVER[ 'HTTP_REFERER']. Por favor, consulte con "
+"su empresa de alojamiento."
+
+#: admin/admin.php:329 admin/admin.php:453 admin/admin.php:454
+#: admin/partials/settings.php:68
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/admin.php:349
+#, php-format
+msgid ""
+"Logic Hop is disabled. Please go to the plugin <a href=\"%s\">settings page</"
+"a> to enable."
+msgstr ""
+"Logic Hop está desactivado. Por favor, vaya a la <a href=\"%s\">página de "
+"configuración</a> del plugin para activar."
+
+#: admin/admin.php:369
+#, php-format
+msgid ""
+"Logic Hop must be configured. Go to the <a href=\"%s\">settings page</a> to "
+"enable and configure the plugin."
+msgstr ""
+"Logic Hop debe configurarse. Ir a la <a href=\"%s\">página de configuración</"
+"a> para activar y configurar el plugin."
+
+#: admin/admin.php:391 admin/admin.php:394
+msgid "Condition updated."
+msgstr "Condición actualiza."
+
+#: admin/admin.php:392 admin/admin.php:409
+msgid "Custom field updated."
+msgstr "Campo personalizado actualiza."
+
+#: admin/admin.php:393 admin/admin.php:410
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: admin/admin.php:395
+#, php-format
+msgid "Condition restored to revision from %s"
+msgstr "Condición restaurado a partir de la revisión %s"
+
+#: admin/admin.php:396
+msgid "Condition published."
+msgstr "Condición publicada."
+
+#: admin/admin.php:397
+msgid "Condition saved."
+msgstr "Condición guardados."
+
+#: admin/admin.php:398
+msgid "Condition submitted."
+msgstr "Condición presentado."
+
+#: admin/admin.php:400
+#, php-format
+msgid "Condition scheduled for: <strong>%1$s</strong>."
+msgstr "Condición prevista para: <strong>%1$s</strong>."
+
+#: admin/admin.php:401 admin/admin.php:418
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/admin.php:403
+msgid "Condition draft updated."
+msgstr "Proyecto condición actualiza."
+
+#: admin/admin.php:408 admin/admin.php:411
+msgid "Goal updated."
+msgstr "Objetivo actualiza."
+
+#: admin/admin.php:412
+#, php-format
+msgid "Goal restored to revision from %s"
+msgstr "Objetivo restaurado a partir de la revisión %s"
+
+#: admin/admin.php:413
+msgid "Goal published."
+msgstr "Objetivo publicada."
+
+#: admin/admin.php:414
+msgid "Goal saved."
+msgstr "Objetivo guardados."
+
+#: admin/admin.php:415
+msgid "Goal submitted."
+msgstr "Objetivo presentado."
+
+#: admin/admin.php:417
+#, php-format
+msgid "Goal scheduled for: <strong>%1$s</strong>."
+msgstr "Meta prevista para el: <strong>%1$s</strong>."
+
+#: admin/admin.php:420
+msgid "Goal draft updated."
+msgstr "Objetivo proyecto actualiza."
+
+#: admin/admin.php:444 admin/admin.php:445 admin/admin.php:581
+#: admin/partials/insights.php:54
+msgid "Insights"
+msgstr "Insights"
+
+#: admin/admin.php:508
+msgid "Display if Logic Hop Condition is"
+msgstr "Si mostrar Logic Hop condición se"
+
+#: admin/admin.php:511
+msgid "Always Display"
+msgstr "Siempre Display"
+
+#: admin/admin.php:518
+msgid "Logic Hop Condition Not Met"
+msgstr "Si mostrar Logic Hop condición se"
+
+#: admin/admin.php:566
+msgid "Overview"
+msgstr "Visión de Conjunto"
+
+#: admin/admin.php:567
+msgid "Overivew help text here"
+msgstr "Overivew help text here"
+
+#: admin/admin.php:571 includes/core.php:245 includes/core.php:248
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: admin/admin.php:572
+msgid "Conditions help text here"
+msgstr "Conditions help text here"
+
+#: admin/admin.php:576 includes/core.php:271 includes/core.php:274
+msgid "Goals"
+msgstr "Metas"
+
+#: admin/admin.php:577
+msgid "Goals help text here"
+msgstr "Goals help text here"
+
+#: admin/admin.php:582
+msgid "Insights help text here"
+msgstr "Insights help text here"
+
+#: admin/admin.php:586
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/admin.php:587
+msgid "Google Analytics help text here"
+msgstr "Google Analytics help text here"
+
+#: admin/admin.php:678
+msgid "Logic Hop Shortcodes"
+msgstr "Logic Hop Shortcodes"
+
+#: admin/admin.php:679
+msgid "Conditional Shortcode"
+msgstr "Shortcode"
+
+#: admin/admin.php:680 admin/admin.php:689 admin/admin.php:760
+msgid "Select a condition"
+msgstr "Seleccione una condición"
+
+#: admin/admin.php:680 admin/admin.php:689 admin/admin.php:760
+msgid "No conditions have been created"
+msgstr "No se han creado condiciones"
+
+#: admin/admin.php:682
+msgid "Insert Conditional Shortcode"
+msgstr "Inserte Código corto Condicional"
+
+#: admin/admin.php:683
+msgid "Insert Conditional Not Shortcode"
+msgstr "Inserte condicional no Shortcode"
+
+#: admin/admin.php:684
+msgid "Goal Shortcode"
+msgstr "objetivo Shortcode"
+
+#: admin/admin.php:685 admin/admin.php:691
+msgid "Select a goal"
+msgstr "Seleccione un objetivo"
+
+#: admin/admin.php:685 admin/admin.php:691
+msgid "No goals have been created"
+msgstr "Sin goles se han creado"
+
+#: admin/admin.php:687
+msgid "Insert Goal Shortcode"
+msgstr "Inserte Meta Shortcode"
+
+#: admin/admin.php:688
+msgid "Conditional Goal Shortcode"
+msgstr "Condicional Código corto Meta"
+
+#: admin/admin.php:693
+msgid "Insert Conditional Goal Shortcode"
+msgstr "Inserte condicional Código corto Meta"
+
+#: admin/admin.php:696 admin/admin.php:773
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/admin.php:758
+msgid "Logic Hop Javascript Condition"
+msgstr "Salto de la lógica condición Javascript"
+
+#: admin/admin.php:759
+msgid "Condition"
+msgstr "Condición"
+
+#: admin/admin.php:762
+msgid "Initial State"
+msgstr "Estado inicial"
+
+#: admin/admin.php:763
+msgid "Hidden"
+msgstr "Oculto"
+
+#: admin/admin.php:764
+msgid "Visible"
+msgstr "Visible"
+
+#: admin/admin.php:765 admin/admin.php:983
+msgid "Event"
+msgstr "Event"
+
+#: admin/admin.php:766
+msgid "When"
+msgstr "Cuando"
+
+#: admin/admin.php:767
+msgid "Condition Met"
+msgstr "Condición se reunió"
+
+#: admin/admin.php:768 admin/admin.php:978 admin/admin.php:1003
+msgid "Condition Not Met"
+msgstr "Condición de No Logro"
+
+#: admin/admin.php:769
+msgid "Add CSS Classes on Condition"
+msgstr "Añadir nueva Condición"
+
+#: admin/admin.php:770
+msgid "Remove CSS Classes on Condition"
+msgstr "Quitar clases CSS sobre condición"
+
+#: admin/admin.php:771
+msgid "Insert Javascript Condition"
+msgstr "Inserte condición Javascript"
+
+#: admin/admin.php:798
+msgid "Logic Builder"
+msgstr "La lógica del constructor"
+
+#: admin/admin.php:806
+msgid "Goal Description"
+msgstr "Meta Descripción"
+
+#: admin/admin.php:814
+msgid "Google Event Tracking"
+msgstr "Google Seguimiento de Eventos"
+
+#: admin/admin.php:952
+msgid "Logic Hop Page/Post Tracking"
+msgstr "Seguimiento de la lógica Hop Página / Post"
+
+#: admin/admin.php:956
+msgid "Page Tracking Disabled"
+msgstr "Seguimiento de la página para discapacitados"
+
+#: admin/admin.php:958
+msgid "Page Tracking Enabled"
+msgstr "Seguimiento de la página habilitada"
+
+#: admin/admin.php:962
+msgid "Set Goal on Page Load"
+msgstr "Objetivo fijado en la carga de la página"
+
+#: admin/admin.php:963 admin/admin.php:970 admin/admin.php:982
+#: admin/admin.php:995
+msgid "Clear"
+msgstr "Claro"
+
+#: admin/admin.php:964 admin/admin.php:974 admin/admin.php:989
+msgid "Set Goal"
+msgstr "Establecer una meta"
+
+#: admin/admin.php:965 admin/admin.php:975 admin/admin.php:990
+msgid "No Goal"
+msgstr "Sin meta"
+
+#: admin/admin.php:969
+msgid "Set Goal on Condition"
+msgstr "Objetivo fijado en la Condición"
+
+#: admin/admin.php:971 admin/admin.php:996
+msgid "On Condition"
+msgstr "En condicion"
+
+#: admin/admin.php:972
+msgid "No Condition"
+msgstr "No Estado"
+
+#: admin/admin.php:981
+msgid "Set Goal on Javascript Event"
+msgstr "Objetivo fijado en Javascript Evento"
+
+#: admin/admin.php:984
+msgid "No Event"
+msgstr "No evento"
+
+#: admin/admin.php:986
+msgid "Element"
+msgstr "Elemento"
+
+#: admin/admin.php:988
+msgid "Class or ID. Example: .class-name or #id-name"
+msgstr "Clase o ID. Ejemplo: .class-nombre o # id-nombre"
+
+#: admin/admin.php:994
+msgid "Redirect Page on Condition"
+msgstr "Página redirigida en la Condición"
+
+#: admin/admin.php:997
+msgid "No Redirect"
+msgstr "Sin redireccionamiento"
+
+#: admin/admin.php:999
+msgid "Redirect to Page/URL"
+msgstr "Redirigir a la página/URL"
+
+#: admin/admin.php:1001
+msgid "Path or URL"
+msgstr "Ruta o URL"
+
+#: admin/admin.php:1100
+msgid "Condition Description"
+msgstr "Descripción de condición"
+
+#: admin/admin.php:1102
+msgid "Conditional Statements"
+msgstr "Las sentencias condicionales"
+
+#: admin/admin.php:1103 admin/admin.php:1176
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/admin.php:1107
+msgid "Javascript HTML"
+msgstr "JavaScript HTML"
+
+#: admin/admin.php:1110
+msgid "CSS Class"
+msgstr "Clase CSS"
+
+#: admin/admin.php:1113
+msgid "Enable Conditional CSS"
+msgstr "Activar CSS Condicional"
+
+#: admin/admin.php:1114 admin/partials/conditions.php:26
+msgid "Show Conditional Logic"
+msgstr "Mostrar la lógica condicional"
+
+#: admin/admin.php:1169
+#, php-format
+msgid "Goal triggered <a href=\"%s%d\">%s %s</a> since %s."
+msgstr "Meta desencadenada <a href=\"%s%d\">%s %s</a> ya que %s."
+
+#: admin/admin.php:1173
+msgid "time"
+msgstr "vez"
+
+#: admin/admin.php:1173
+msgid "times"
+msgstr "veces"
+
+#: admin/admin.php:1179
+msgid "Javascript"
+msgstr "Javascript"
+
+#: admin/admin.php:1227
+msgid "Send Event to Google Analytics"
+msgstr "Enviar evento de Google Analytics"
+
+#: admin/admin.php:1228
+msgid "Category"
+msgstr "Categoría"
+
+#: admin/admin.php:1230
+msgid "Action"
+msgstr "Acción"
+
+#: admin/admin.php:1232
+msgid "Label"
+msgstr "Etiqueta"
+
+#: admin/admin.php:1233 admin/admin.php:1236
+msgid "Optional"
+msgstr "Opcional"
+
+#: admin/admin.php:1235 admin/partials/conditions.php:43
+msgid "Value"
+msgstr "Valor"
+
+#: admin/admin.php:1247
+msgid "Google Analytics is currently disabled."
+msgstr "Google Analytics está actualmente desactivado."
+
+#: admin/admin.php:1248
+#, php-format
+msgid ""
+"To enable, add a valid Google Analytics Account ID on the <a href=\"%s"
+"\">Settings page</a>."
+msgstr ""
+"Para habilitar, añada un ID de cuenta de Google Analytics válida en la <a "
+"href=\"%s\">página Configuración</a>."
+
+#: admin/partials/conditions.php:6
+msgid "Select a Condition Type to get started."
+msgstr "Seleccione un tipo de condición para empezar."
+
+#: admin/partials/conditions.php:7
+msgid "Select"
+msgstr "Seleccionar"
+
+#: admin/partials/conditions.php:8
+msgid "Equal To"
+msgstr "Igual a"
+
+#: admin/partials/conditions.php:9
+msgid "Greater Than"
+msgstr "Greater Than"
+
+#: admin/partials/conditions.php:10
+msgid "Less Than Or Equal To"
+msgstr "Menor o igual a"
+
+#: admin/partials/conditions.php:11
+msgid "Greater Than Or Equal To"
+msgstr "Mayor o igual a"
+
+#: admin/partials/conditions.php:12
+msgid "Less Than"
+msgstr "Menor que"
+
+#: admin/partials/conditions.php:13
+msgid "Not Equal To"
+msgstr "No es igual"
+
+#: admin/partials/conditions.php:14
+msgid "Completed"
+msgstr "Finalizado"
+
+#: admin/partials/conditions.php:15
+msgid "Not Completed"
+msgstr "No completado"
+
+#: admin/partials/conditions.php:16
+msgid "Is"
+msgstr "Es"
+
+#: admin/partials/conditions.php:17
+msgid "Is Not"
+msgstr "No es"
+
+#: admin/partials/conditions.php:18
+msgid "If"
+msgstr "Si"
+
+#: admin/partials/conditions.php:19
+msgid "And"
+msgstr "Y"
+
+#: admin/partials/conditions.php:20
+msgid "Or"
+msgstr "O"
+
+#: admin/partials/conditions.php:21
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin/partials/conditions.php:22
+msgid "Details"
+msgstr "Detalles"
+
+#: admin/partials/conditions.php:23
+msgid "Add Condition"
+msgstr "Ajouter une condition"
+
+#: admin/partials/conditions.php:24
+msgid "Remove Condition"
+msgstr "Eliminar condición"
+
+#: admin/partials/conditions.php:25
+msgid "Select Type"
+msgstr "Tipo de Perfil"
+
+#: admin/partials/conditions.php:27
+msgid "Hide Conditional Logic"
+msgstr "Ocultar la lógica condicional"
+
+#: admin/partials/conditions.php:28
+msgid "Goal"
+msgstr "Gol"
+
+#: admin/partials/conditions.php:29
+msgid ""
+"Has a specific Goal been completed or not completed by the current visitor."
+msgstr ""
+"Tiene un objetivo específico ha completado o no completado por el visitante "
+"actual."
+
+#: admin/partials/conditions.php:30
+msgid "Goal Views"
+msgstr "Sin Goles Vistas"
+
+#: admin/partials/conditions.php:31
+msgid "The number of times the current visitor has completed a specific Goal."
+msgstr ""
+"El número de veces que el visitante actual ha conseguido un objetivo "
+"específico."
+
+#: admin/partials/conditions.php:32
+msgid "Current Page Views"
+msgstr "Vistas de página actual"
+
+#: admin/partials/conditions.php:33
+msgid ""
+"The number of times the current page has been viewed by the current visitor."
+msgstr "Número de veces que ha sido vista la página actual."
+
+#: admin/partials/conditions.php:34
+msgid "Total Page Views"
+msgstr "Total páginas vistas"
+
+#: admin/partials/conditions.php:35
+msgid "The number of all page views combined for the current visitor."
+msgstr ""
+"El número de todas las páginas vistas combinadas para el visitante actual."
+
+#: admin/partials/conditions.php:36
+msgid "Specific Page Views"
+msgstr "Vistas de página específico"
+
+#: admin/partials/conditions.php:37
+msgid "The number of times the current user has viewed a specific page."
+msgstr ""
+"El número de veces que el usuario actual ha visitado una página específica."
+
+#: admin/partials/conditions.php:38
+msgid "Referrer"
+msgstr "Referenciador"
+
+#: admin/partials/conditions.php:39
+msgid "URL"
+msgstr "URL"
+
+#: admin/partials/conditions.php:40
+msgid ""
+"The current referring URL of the current visitor.<br>Full path including "
+"query string.<br>Internal and external referrers."
+msgstr ""
+"La URL de referencia actual del visitante actual. <br> ruta completa "
+"incluyendo la cadena de consulta. <br> los referentes internos y externos."
+
+#: admin/partials/conditions.php:41
+msgid "Query String"
+msgstr "Cadena de Consulta"
+
+#: admin/partials/conditions.php:42
+msgid "Variable"
+msgstr "Variable"
+
+#: admin/partials/conditions.php:44
+msgid ""
+"Is the query string variable set to a specific value.<br>Example: http://"
+"logichop.com/?animal=kangaroo.<br>Variable is \"animal\", value is \"kangaroo"
+"\""
+msgstr ""
+"Valor de una variable de cadena de consulta.<br>Ejemplo: http://logichop."
+"com/?animal=kangaroo.<br>Variable es \"animal\", el valor es \"kangaroo\""
+
+#: admin/partials/conditions.php:45
+msgid "User Is"
+msgstr "Ruta de usuario"
+
+#: admin/partials/conditions.php:46
+msgid "Logged In"
+msgstr "Sesión iniciada"
+
+#: admin/partials/conditions.php:47
+msgid "Logged Out"
+msgstr "Registrado hacia fuera"
+
+#: admin/partials/conditions.php:48
+msgid "Is the user currently logged in to Wordpress or logged out."
+msgstr ""
+"Es el usuario actualmente ha iniciado sesión Wordpress o registrado hacia "
+"fuera."
+
+#: admin/partials/conditions.php:49
+msgid "Day of the Week"
+msgstr "Un día"
+
+#: admin/partials/conditions.php:50
+msgid "Monday"
+msgstr "Lunes"
+
+#: admin/partials/conditions.php:51
+msgid "Tuesday"
+msgstr "Martes"
+
+#: admin/partials/conditions.php:52
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: admin/partials/conditions.php:53
+msgid "Thursday"
+msgstr "Jueves"
+
+#: admin/partials/conditions.php:54
+msgid "Friday"
+msgstr "Viernes"
+
+#: admin/partials/conditions.php:55
+msgid "Saturday"
+msgstr "Sábado"
+
+#: admin/partials/conditions.php:56
+msgid "Sunday"
+msgstr "Domingo"
+
+#: admin/partials/conditions.php:57
+msgid ""
+"The current day of the week starting with Monday, ending with Sunday."
+"<br>Tuesday is less than Friday.<br>Saturday is greater than Wednesday."
+"<br>Based on Wordpress date & time."
+msgstr ""
+"El día de la semana a partir del lunes, terminando con el domingo.<br>El "
+"martes es menos que el viernes.<br>El sábado es más que el miércoles."
+"<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:58
+msgid "Day"
+msgstr "Día"
+
+#: admin/partials/conditions.php:59
+msgid ""
+"The current numerical day of the month.<br>Based on Wordpress date & time."
+msgstr "El actual día numérico del mes.<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:60
+msgid "Month"
+msgstr "Un mes"
+
+#: admin/partials/conditions.php:61
+msgid "January"
+msgstr "Enero"
+
+#: admin/partials/conditions.php:62
+msgid "February"
+msgstr "Febrero"
+
+#: admin/partials/conditions.php:63
+msgid "March"
+msgstr "Marzo"
+
+#: admin/partials/conditions.php:64
+msgid "April"
+msgstr "Abril"
+
+#: admin/partials/conditions.php:65
+msgid "May"
+msgstr "mayo"
+
+#: admin/partials/conditions.php:66
+msgid "June"
+msgstr "Junio"
+
+#: admin/partials/conditions.php:67
+msgid "July"
+msgstr "Julio"
+
+#: admin/partials/conditions.php:68
+msgid "August"
+msgstr "Agosto"
+
+#: admin/partials/conditions.php:69
+msgid "September"
+msgstr "Septiembre"
+
+#: admin/partials/conditions.php:70
+msgid "October"
+msgstr "Octubre"
+
+#: admin/partials/conditions.php:71
+msgid "November"
+msgstr "Noviembre"
+
+#: admin/partials/conditions.php:72
+msgid "December"
+msgstr "Diciembre"
+
+#: admin/partials/conditions.php:73
+msgid ""
+"The current month of the year starting with January, ending with December."
+"<br>March is less than July.<br>October is greater than April.<br>Based on "
+"Wordpress date & time."
+msgstr ""
+"Del mes actual del año a partir de enero, terminando con diciembre.<br>Marzo "
+"es menor que la de julio.<br>Octubre es superior de abril.<br>Basado en "
+"Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:74
+msgid "Year"
+msgstr "año"
+
+#: admin/partials/conditions.php:75
+msgid "The current year.<br>Based on Wordpress date & time."
+msgstr "El año en curso.<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:76
+msgid "Hour"
+msgstr "Hora"
+
+#: admin/partials/conditions.php:77
+msgid ""
+"The current hour of the day.<br>2am is less than 1pm.<br>11pm is greater "
+"than 12am.<br>Based on Wordpress date & time."
+msgstr ""
+"La hora actual del día.<br>2:00 está a menos de 13:00.<br>23:00 es mayor que "
+"12 am.<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:78
+msgid "Minutes"
+msgstr "Minutos"
+
+#: admin/partials/conditions.php:79
+msgid ""
+"The current minute of the hour.<br>Most useful with greater than or less "
+"than.<br>Based on Wordpress date & time."
+msgstr ""
+"El momento actual de la hora.<br>Más útil con la mayor o menor que."
+"<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:80
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/partials/conditions.php:81
+msgid ""
+"The current date.<br>Format: mm/dd/yyyy.<br>Halloween 2020 is 10/31/2020."
+"<br>Based on Wordpress date & time."
+msgstr ""
+"La fecha actual.<br>Formato: mm/dd/aaaa.<br>Es 2020 Halloween 31/10/2020."
+"<br>Basado en Wordpress fecha y tiempo."
+
+#: admin/partials/conditions.php:82
+msgid "User Path"
+msgstr "Ruta de usuario"
+
+#: admin/partials/conditions.php:83
+msgid "Page 1"
+msgstr "Página 1"
+
+#: admin/partials/conditions.php:84
+msgid "Page 2"
+msgstr "Página 2"
+
+#: admin/partials/conditions.php:85
+msgid "Page 3"
+msgstr "Página 3"
+
+#: admin/partials/conditions.php:86
+msgid "Page 4"
+msgstr "Página 4"
+
+#: admin/partials/conditions.php:87
+msgid "Page 5"
+msgstr "Páge 5"
+
+#: admin/partials/conditions.php:88
+msgid ""
+"The current visitor’s path through the site. Up to 5 pages.<br>Leave pages "
+"unselected for fewer than 5.<br>User's path always consists of the 5 most "
+"recent pages."
+msgstr ""
+"El camino del visitante corriente a través del sitio. Hasta 5 páginas. <br> "
+"Deja páginas no seleccionadas por menos de 5. <br> el camino del usuario "
+"siempre se compone de las 5 páginas más recientes."
+
+#: admin/partials/configuration.php:22 admin/partials/settings.php:74
+msgid "Configuration"
+msgstr "Configuración"
+
+#: admin/partials/configuration.php:23
+msgid "Wordpress Domain:"
+msgstr "Dominio de WordPress:"
+
+#: admin/partials/configuration.php:25
+msgid "Domain Name:"
+msgstr "Nombre de dominio"
+
+#: admin/partials/configuration.php:26 admin/partials/configuration.php:34
+#: admin/partials/configuration.php:36 admin/partials/configuration.php:38
+msgid "Not Set"
+msgstr "No establecido"
+
+#: admin/partials/configuration.php:27
+msgid "Wordpress Version:"
+msgstr "Versión Wordpress"
+
+#: admin/partials/configuration.php:29
+msgid "PHP Version:"
+msgstr "Versión PHP:"
+
+#: admin/partials/configuration.php:31
+msgid "Logic Hop Version:"
+msgstr "Logic Hop Versión"
+
+#: admin/partials/configuration.php:33
+msgid "Logic Hop API Key:"
+msgstr "Logic Hop API Key:"
+
+#: admin/partials/configuration.php:35
+msgid "Cookie TTL:"
+msgstr "Galletas TTL:"
+
+#: admin/partials/configuration.php:37
+msgid "Javscript Referrer:"
+msgstr "Referente de JavaScript:"
+
+#: admin/partials/configuration.php:39
+msgid "Cache Enabled:"
+msgstr "Activado el caché:"
+
+#: admin/partials/configuration.php:40 admin/partials/configuration.php:42
+#: admin/partials/settings.php:45
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: admin/partials/configuration.php:40 admin/partials/configuration.php:42
+#: admin/partials/settings.php:45
+msgid "Disabled"
+msgstr "Discapacitado"
+
+#: admin/partials/configuration.php:41
+msgid "Javscript Tracking:"
+msgstr "Javascript de seguimiento:"
+
+#: admin/partials/configuration.php:43
+msgid "Cache Enabled: Javascript Tracking is recommended."
+msgstr "Caché Habilitado: Se recomienda seguimiento JavaScript."
+
+#: admin/partials/configuration.php:44
+msgid "Theme:"
+msgstr "Tema:"
+
+#: admin/partials/configuration.php:46
+msgid "Plugins:"
+msgstr "Plugins"
+
+#: admin/partials/insights.php:24
+msgid "Unique Data: Past 30 Days"
+msgstr "Los datos único: Últimos 30 días"
+
+#: admin/partials/insights.php:25
+msgid "Unique Data: Past 7 Days"
+msgstr "Los datos único: Últimos 7 días"
+
+#: admin/partials/insights.php:26
+msgid "Unique Data: Since Yesterday"
+msgstr "Los datos único: Desde ayer"
+
+#: admin/partials/insights.php:27
+msgid "Unique Data: Today"
+msgstr "Los datos único: Hoy"
+
+#: admin/partials/insights.php:28
+msgid "Aggregate Data: Past 30 Days"
+msgstr "Información agregada: Últimos 30 días"
+
+#: admin/partials/insights.php:29
+msgid "Aggregate Data: Past 7 Days"
+msgstr "Información agregada: Últimos 7 días"
+
+#: admin/partials/insights.php:30
+msgid "Aggregate Data: Since Yesterday"
+msgstr "Información agregada: Desde ayer"
+
+#: admin/partials/insights.php:31
+msgid "Aggregate Data: Today"
+msgstr "Información agregada: Hoy"
+
+#: admin/partials/insights.php:43
+msgid "Frontpage Posts"
+msgstr "Frontpage Mensajes"
+
+#: admin/partials/insights.php:44
+msgid "404 Error"
+msgstr "404 Error"
+
+#: admin/partials/insights.php:74 admin/partials/insights.php:92
+msgid "Pages Viewed"
+msgstr "Páginas Visitadas"
+
+#: admin/partials/insights.php:77 admin/partials/insights.php:140
+msgid "Goals Triggered"
+msgstr "Objetivos Desencadenan"
+
+#: admin/partials/insights.php:80 admin/partials/insights.php:188
+msgid "Referrers"
+msgstr "Enlaces Origen"
+
+#: admin/partials/insights.php:93
+msgid "Page Count"
+msgstr "Contar Páginas"
+
+#: admin/partials/insights.php:124
+msgid "No Page Views"
+msgstr "No hay Vistas de la página"
+
+#: admin/partials/insights.php:128
+msgid "No Pages Viewed"
+msgstr "No hay páginas visitadas"
+
+#: admin/partials/insights.php:141
+msgid "Goal Count"
+msgstr "Contador de meta"
+
+#: admin/partials/insights.php:172
+msgid "No Goal Views"
+msgstr "Sin Goles Vistas"
+
+#: admin/partials/insights.php:176
+msgid "No Goals Viewed"
+msgstr "Sin Goles Vistos"
+
+#: admin/partials/insights.php:189
+msgid "Referrer Count"
+msgstr "Conde de Referencia"
+
+#: admin/partials/insights.php:218 admin/partials/insights.php:222
+msgid "No Referrers"
+msgstr "No hay Referrers"
+
+#: admin/partials/instructions.php:54
+msgid "Quick Start Instructions"
+msgstr "Instrucciones de Inicio Rápido"
+
+#: admin/partials/instructions.php:55
+msgid "Create a Logic Hop Account"
+msgstr "Crea una cuenta"
+
+#: admin/partials/instructions.php:56
+msgid ""
+"<a href=\"https://logichop.com/pricing/\" target=\"_blank\">Click here</a> "
+"to select a Logic Hop plan and create an account."
+msgstr ""
+"<a href=\"https://logichop.com/pricing/\" target=\"_blank\">Haga clic aquí</"
+"a> para seleccionar un plan de lógica Hop y crear una cuenta."
+
+#: admin/partials/instructions.php:57
+msgid "Enter your API Key on the Logic Hop Settings page."
+msgstr "Introduzca su clave de API en la página de Configuración Lógica Hop."
+
+#: admin/partials/instructions.php:58
+msgid ""
+"<a href=\"https://logichop.com/docs/how-to-install-and-configure-logic-hop/"
+"\" target=\"_blank\">Click here</a> to learn how to install and configure "
+"Logic Hop."
+msgstr ""
+"<a href=\"https://logichop.com/docs/how-to-install-and-configure-logic-hop/"
+"\" target=\"_blank\">Haga clic aquí</a> para aprender cómo instalar y "
+"configurar la lógica Hop."
+
+#: admin/partials/instructions.php:59
+msgid "Create a Logic Hop Condition"
+msgstr "Crear una lógica Hop Condición"
+
+#: admin/partials/instructions.php:60
+msgid ""
+"<a href=\"https://logichop.com/docs/how-to-create-logic-hop-conditions/\" "
+"target=\"_blank\">Click here</a> to learn how to create a Logic Hop "
+"Condition."
+msgstr ""
+"<a href=\"https://logichop.com/docs/how-to-create-logic-hop-conditions/\" "
+"target=\"_blank\">Haga clic aquí</a> para aprender cómo crear una lógica Hop "
+"Estado."
+
+#: admin/partials/instructions.php:61
+msgid "Create a Logic Hop Goal"
+msgstr "Crear una meta lógica Hop"
+
+#: admin/partials/instructions.php:62
+msgid ""
+"<a href=\"https://logichop.com/docs/how-to-create-logic-hop-goals/\" target="
+"\"_blank\">Click here</a> to learn how to create a Logic Hop Goal."
+msgstr ""
+"<a href=\"https://logichop.com/docs/how-to-create-logic-hop-goals/\" target="
+"\"_blank\">Haga clic aquí</a> para aprender cómo crear un Gol Hop lógica."
+
+#: admin/partials/instructions.php:63
+msgid "Add a Logic Hop Shortcode to a Page or Post"
+msgstr "Añadir una lógica Hop Código corto a una página o post"
+
+#: admin/partials/instructions.php:64
+msgid ""
+"<a href=\"https://logichop.com/docs/using-logic-hop-shortcodes/\" target="
+"\"_blank\">Click here</a> to learn how to use Logic Hop Shortcodes."
+msgstr ""
+"<a href=\"https://logichop.com/docs/using-logic-hop-shortcodes/\" target="
+"\"_blank\">Haga clic aquí</a> para aprender a usar la lógica Hop Shortcodes."
+
+#: admin/partials/instructions.php:66
+msgid "Getting Started Tip"
+msgstr "Primeros pasos Tip"
+
+#: admin/partials/instructions.php:67
+msgid ""
+"Create a “Day of the Week” Condition – It’s a fast, easy way to start "
+"exploring Logic Hop functionality."
+msgstr ""
+"Crear un \"Día de la Semana\" Condición - Es una forma rápida y fácil para "
+"empezar a explorar la funcionalidad lógica Hop."
+
+#: admin/partials/instructions.php:69
+msgid "Logic Hop Documentation"
+msgstr "Documentación lógica Hop"
+
+#: admin/partials/instructions.php:70
+msgid "Logic Hop 5-Minute Quick Start Guide"
+msgstr "Lógica Hop 5 Minuto Guía de inicio rápido"
+
+#: admin/partials/instructions.php:71
+msgid "How to Install & Configure Logic Hop"
+msgstr "Cómo instalar y configurar la lógica Hop"
+
+#: admin/partials/instructions.php:72
+msgid "How to Create Logic Hop Conditions"
+msgstr "Cómo crear una lógica Hop Condiciones"
+
+#: admin/partials/instructions.php:73
+msgid "How to Create Logic Hop Goals"
+msgstr "Cómo crear Objetivos de Lógica Hop"
+
+#: admin/partials/instructions.php:74
+msgid "Using Logic Hop with Pages & Posts"
+msgstr "Uso de la lógica Hop con páginas y mensajes"
+
+#: admin/partials/instructions.php:75
+msgid "Using Logic Hop Shortcodes"
+msgstr "Uso de la lógica Hop Shortcodes"
+
+#: admin/partials/instructions.php:76
+msgid "Using Logic Hop with Widgets"
+msgstr "Uso de la lógica Hop con widgets"
+
+#: admin/partials/instructions.php:77
+msgid "Using Logic Hop with Javascript"
+msgstr "Uso de la lógica Hop con Javascript"
+
+#: admin/partials/instructions.php:78
+msgid "Using Logic Hop as Conditional CSS"
+msgstr "Uso de la lógica condicional hop como CSS"
+
+#: admin/partials/instructions.php:79
+msgid "Working with Logic Hop Insights"
+msgstr "Trabajando con la lógica Hop Insights"
+
+#: admin/partials/instructions.php:80
+msgid "Using Logic Hop with Cache Plugins"
+msgstr "Uso de la lógica Hop con caché Plugins"
+
+#: admin/partials/instructions.php:81
+msgid "Condition Type & Operator Reference"
+msgstr "Condición Tipo y referencia del operador"
+
+#: admin/partials/instructions.php:82
+msgid "Plugin & Theme Settings Guide"
+msgstr "Guía de plug-in y parques temáticos Ajustes"
+
+#: admin/partials/settings.php:16
+msgid "There is a newer version of Logic Hop available."
+msgstr "Hay una nueva versión de la lógica Hop disponibles."
+
+#: admin/partials/settings.php:17
+msgid ""
+"Please <a href=\"https://logichop.com/download\" target=\"_blank\">Upgrade "
+"now</a>."
+msgstr ""
+"Por favor <a href=\"https://logichop.com/download\" target=\"_blank"
+"\">Asciende ahora</a> ."
+
+#: admin/partials/settings.php:24
+msgid "Logic Hop Settings"
+msgstr "Logic Hop Ajustes"
+
+#: admin/partials/settings.php:44
+msgid "Status"
+msgstr "Estado"
+
+#: admin/partials/settings.php:46
+msgid "Version"
+msgstr "Versión"
+
+#: admin/partials/settings.php:49
+msgid "Account Type"
+msgstr "Tipo de cuenta"
+
+#: admin/partials/settings.php:50 admin/partials/settings.php:53
+msgid "Create an Account"
+msgstr "Crea una cuenta"
+
+#: admin/partials/settings.php:51
+msgid "Account"
+msgstr "Cuenta"
+
+#: admin/partials/settings.php:52
+msgid "Expires"
+msgstr "Expira"
+
+#: admin/partials/settings.php:52
+msgid "Expired"
+msgstr "Muerto"
+
+#: admin/partials/settings.php:71
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: admin/partials/settings.php:83
+msgid "Welcome to Logic Hop!"
+msgstr "Bienvenido a Logic Hop!"
+
+#: admin/partials/settings.php:84
+msgid "Enter your API Key and information below to get started."
+msgstr "Escriba la clave de la API y del abajo para empezar."
+
+#: admin/partials/settings.php:85
+msgid ""
+"If you need an API Key, visit <a href=\"http://logichop.com\" target=\"_blank"
+"\">LogicHop.com</a>."
+msgstr ""
+"Si necesita una clave de API, visite <a href=\"http://logichop.com\" target="
+"\"_blank\">LogicHop.com</a>."
+
+#: includes/activate.php:34
+msgid "Important: Incompatible Wordpress Version"
+msgstr "Importante: Incompatible Wordpress Versión"
+
+#: includes/activate.php:35
+msgid ""
+"This plugin can not be activated because it requires a WordPress version "
+"greater than"
+msgstr ""
+"Este plugin no puede ser activado, ya que requiere una versión WordPress "
+"mayor que"
+
+#: includes/activate.php:37
+msgid "Please update to the latest version of Wordpress."
+msgstr "Por favor, actualice a la última versión de Wordpress."
+
+#: includes/activate.php:39 includes/activate.php:57
+msgid "Back to Plugins"
+msgstr "Volver a los plugins"
+
+#: includes/activate.php:52
+msgid "Important: Incompatible PHP Version"
+msgstr "Importante: Incompatible Versión PHP"
+
+#: includes/activate.php:53
+msgid ""
+"This plugin can not be activated because it requires a PHP version greater "
+"than"
+msgstr ""
+"Este plugin no puede ser activado, ya que requiere una versión PHP mayor que"
+
+#: includes/activate.php:55
+msgid "Your PHP version can be updated by your hosting company."
+msgstr "Su versión de PHP puede ser actualizado por su empresa de alojamiento."
+
+#: includes/core.php:247
+msgid "Logic Hop Conditions"
+msgstr "Si mostrar Logic Hop condición se"
+
+#: includes/core.php:249
+msgid "Add New Condition"
+msgstr "Añadir nueva Condición"
+
+#: includes/core.php:250
+msgid "Edit Condition"
+msgstr "Editar condición"
+
+#: includes/core.php:251 includes/core.php:252
+msgid "No conditions found"
+msgstr "No se encontraron condiciones"
+
+#: includes/core.php:253
+msgid "Search Conditons"
+msgstr "Condiciones de búsqueda"
+
+#: includes/core.php:273
+msgid "Logic Hop Goals"
+msgstr "Objetivos de la lógica Hop"
+
+#: includes/core.php:275
+msgid "Add New Goal"
+msgstr "Añadir nueva meta"
+
+#: includes/core.php:276
+msgid "Edit Goal"
+msgstr "Editar Meta"
+
+#: includes/core.php:277 includes/core.php:278
+msgid "No goals found"
+msgstr "Sin goles encontrados"
+
+#: includes/core.php:279
+msgid "Search Goals"
+msgstr "Objetivos de la búsqueda"
+
+#: includes/core.php:683
+msgid "On Click"
+msgstr "On Click"
+
+#: includes/core.php:684
+msgid "On Double Click"
+msgstr "On Double Click"
+
+#: includes/core.php:685
+msgid "On Focus"
+msgstr "On Focus"
+
+#: includes/core.php:686
+msgid "On Blur"
+msgstr "On Blur"
+
+#: includes/core.php:687
+msgid "On Scroll"
+msgstr "On Scroll"
+
+#: includes/core.php:688
+msgid "On Mouse Down"
+msgstr "On Mouse Down"
+
+#: includes/core.php:689
+msgid "On Mouse Up"
+msgstr "On Mouse Up"
+
+#: includes/core.php:690
+msgid "On Mouse Over"
+msgstr "On Mouse Over"
+
+#: includes/core.php:691
+msgid "On Mouse Out"
+msgstr "On Mouse Out"
+
+#: includes/core.php:692
+msgid "On Mouse Enter"
+msgstr "On Mouse Enter"
+
+#: includes/core.php:693
+msgid "On Mouse Leave"
+msgstr "On Mouse Leave"
+
+#: includes/core.php:694
+msgid "On Change"
+msgstr "On Change"
+
+#: includes/core.php:695
+msgid "On Select"
+msgstr "On Select"
+
+#: includes/core.php:696
+msgid "On Submit"
+msgstr "On Submit"
+
+#: includes/core.php:697
+msgid "On Key Down"
+msgstr "On Key Down"
+
+#: includes/core.php:698
+msgid "On Key Press"
+msgstr "On Key Press"
+
+#: includes/core.php:699
+msgid "On Key Up"
+msgstr "On Key Up"
+
+#: includes/core.php:700
+msgid "On Load"
+msgstr "On Load"
+
+#: includes/core.php:701
+msgid "On Unload"
+msgstr "On Unload"
+
+#: includes/core.php:702
+msgid "On Before Unload"
+msgstr "On Unload"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Logic Hop"
+msgstr "Logic Hop"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://logichop.com"
+msgstr "http://logichop.com"
+
+#. Description of the plugin/theme
+msgid "Real-time actionable insights & dynamic content display for Wordpress."
+msgstr ""
+"En tiempo real información procesable y visualización de contenido dinámico "
+"para Wordpress."
+
+#~ msgid ""
+#~ "Need an API Key? Visit <a href=\"http://logichop.com\" target=\"_blank"
+#~ "\">LogicHop.com</a>."
+#~ msgstr ""
+#~ "Necesita una clave de API? Visitar <a href=\"http://logichop.com\" target="
+#~ "\"_blank\">LogicHop.com</a>."
+
+#~ msgid ""
+#~ "<em>(Optional)</em> Recommended when using Cache Plugins. <a href="
+#~ "\"http://logichop.com\" target=\"_blank\">Learn More</a>."
+#~ msgstr ""
+#~ "<em>(Opcional)</em> Recomendado cuando se utiliza caché de plugins. <a "
+#~ "href=\"http://logichop.com\" target=\"_blank\">Más información</a>."
+
+#~ msgid ""
+#~ "The current day of the week starting with Monday, ending with Sunday."
+#~ "<br>Tuesday is less than Friday.<br>Saturday is greater than Wednesday."
+#~ "<br>Based on server date & time."
+#~ msgstr ""
+#~ "El día actual de la semana que comienza con el lunes, terminando con el "
+#~ "domingo. <br> El martes es inferior a viernes. <br> El sábado es mayor "
+#~ "que el miércoles. <br> Sobre la base de la fecha y la hora del servidor."
+
+#~ msgid ""
+#~ "The current numerical day of the month.<br>Based on server date & time."
+#~ msgstr ""
+#~ "El día actual del mes numérica. <br> Sobre la base de la fecha y la hora "
+#~ "del servidor."
+
+#~ msgid ""
+#~ "The current month of the year starting with January, ending with December."
+#~ "<br>March is less than July.<br>October is greater than April.<br>Based "
+#~ "on server date & time."
+#~ msgstr ""
+#~ "El mes en curso del año a partir de enero de acabar con diciembre. <br> "
+#~ "Marzo es inferior a julio. <br> Octubre es superior a abril. <br> Sobre "
+#~ "la base de la fecha y la hora del servidor."
+
+#~ msgid "The current year.<br>Based on server date & time."
+#~ msgstr ""
+#~ "El año en curso. <br> Sobre la base de la fecha y la hora del servidor."
+
+#~ msgid ""
+#~ "The current hour of the day.<br>2am is less than 1pm.<br>11pm is greater "
+#~ "than 12am.<br>Based on server date & time."
+#~ msgstr ""
+#~ "La hora actual del día. <br> 02 a.m. es inferior a 13:00. <br> 23:00 es "
+#~ "mayor de 12 a.m.. <br> Sobre la base de la fecha y la hora del servidor."
+
+#~ msgid ""
+#~ "The current minute of the hour.<br>Most useful with greater than or less "
+#~ "than.<br>Based on server date & time."
+#~ msgstr ""
+#~ "En el momento actual de la hora. <br> La más útil con mayor que o menor "
+#~ "que. <br> Sobre la base de la fecha y la hora del servidor."
+
+#~ msgid ""
+#~ "The current date.<br>Format: mm/dd/yyyy.<br>Halloween 2020 is 10/31/2020."
+#~ "<br>Based on server date & time."
+#~ msgstr ""
+#~ "La fecha actual. <br> Formato: dd / mm / aaaa. <br> Halloween 2020 es "
+#~ "31.10.2020. <br> Sobre la base de la fecha y la hora del servidor."
+
+#~ msgid "Display If Logic Hop Condition Is"
+#~ msgstr "Si mostrar Logic Hop condición se"
+
+#~ msgid "Add Conditional Logic"
+#~ msgstr "Añadir lógica condicional"
+
+#~ msgid "Insert Shortcode"
+#~ msgstr "Inserte Shortcode"
+
+#~ msgid "Add Goal"
+#~ msgstr "Añadir objetivo"
+
+#~ msgid "Insert Goal"
+#~ msgstr "Insertar Meta"
+
+#~ msgid "Add Conditional Goal"
+#~ msgstr "Añadir objetivo condicional"
+
+#~ msgid "Insert Conditional Goal"
+#~ msgstr "Inserte Meta Condicional"
+
+#~ msgid "Condition Builder"
+#~ msgstr "Condición del Constructor"
+
+#~ msgid "Don't Track Page Views"
+#~ msgstr "No Track Page Views"
+
+#~ msgid "Has a specific Goal been completed or not completed."
+#~ msgstr "Tiene un objetivo específico ha terminado o no terminado."
+
+#~ msgid "Number of times the current page has been viewed."
+#~ msgstr "Número de veces que ha sido vista la página actual."
+
+#~ msgid "Number of times all pages combined have been viewed."
+#~ msgstr "Han sido vistos varias veces todas las páginas combinadas."
+
+#~ msgid "Number of times a specific page has been viewed."
+#~ msgstr "Número de veces que se ha visto una página específica."
+
+#~ msgid ""
+#~ "Referring URL.<br>Full path including query string.<br>Internal and "
+#~ "external referrers."
+#~ msgstr ""
+#~ "URL de referencia.<br>Ruta de acceso completa incluyendo la cadena de "
+#~ "consulta.<br>Referentes internos y externos."
+
+#~ msgid ""
+#~ "Value of a query string variable.<br>Example: http://logichop.com/?"
+#~ "animal=kangaroo.<br>Variable is \"animal\", value is \"kangaroo\""
+#~ msgstr ""
+#~ "Valor de una variable de cadena de consulta.<br>Ejemplo: http://logichop."
+#~ "com/?animal=kangaroo.<br>Variable es \"animal\", el valor es \"kangaroo\""
+
+#~ msgid ""
+#~ "Day starting with Monday, ending with Sunday.<br>Tuesday is less than "
+#~ "Friday.<br>Saturday is greater than Wednesday."
+#~ msgstr ""
+#~ "Día a partir del lunes, terminando con el domingo.<br>El martes es menos "
+#~ "que el viernes.<br>El sábado es más que el miércoles."
+
+#~ msgid "Day of the month."
+#~ msgstr "Día del mes."
+
+#~ msgid ""
+#~ "Month starting with January, ending with December.<br>March is less than "
+#~ "July.<br>October is greater than April."
+#~ msgstr ""
+#~ "Mes a partir de enero, terminando con diciembre.<br>Marzo es menor que la "
+#~ "de julio.<br>Octubre es superior de abril."
+
+#~ msgid "Current year."
+#~ msgstr "Un año"
+
+#~ msgid ""
+#~ "Hour of the day.<br>2am is less than 1pm.<br>11pm is greater than 12am."
+#~ msgstr ""
+#~ "Hora del día.<br>2:00 está a menos de 13:00.<br>23:00 es mayor que 12 am."
+
+#~ msgid "Minutes of the hour.<br>Most useful with greater than or less than."
+#~ msgstr "Minutos de la hora.<br>Más útil con la mayor o menor que."
+
+#~ msgid ""
+#~ "Current date.<br>Format: mm/dd/yyyy.<br>Halloween 2020 is 10/31/2020."
+#~ msgstr ""
+#~ "Fecha actual.<br>Formato: mm/dd/yyyy.<br>Es 2020 Halloween 10/31/2020."
+
+#~ msgid ""
+#~ "User path through site. Up to 5 pages.<br>Leave pages unselected for "
+#~ "fewer than 5.<br>User's path always consists of the 5 most recent pages."
+#~ msgstr ""
+#~ "Ruta de acceso de usuario a través del sitio. Hasta 5 páginas.<br>Deje "
+#~ "sin seleccionar por menos de 5 páginas.<br>Ruta del usuario consiste en "
+#~ "siempre las 5 páginas más recientes."
+
+#~ msgid "Logic Hop, Wordpress and web server settings."
+#~ msgstr "Configuración servidor web, Wordpress y Logic Hop."
+
+#~ msgid "Coming soon."
+#~ msgstr "Próximamente."
+
+#~ msgid "Add New Conditions"
+#~ msgstr "Añadir nuevas condiciones"
+
+#~ msgid "Serach Conditons"
+#~ msgstr "Condiciones de búsqueda"
+
+#~ msgid "Serach Goals"
+#~ msgstr "Objetivos de la búsqueda"
+
+#~ msgid ""
+#~ "Logic Hop plugin to connect your WordPress site to your Logic Hop data."
+#~ msgstr ""
+#~ "Logic Hop plugin to connect your WordPress site to your Logic Hop data."
+
+#~ msgid "Domain"
+#~ msgstr "Dominio"
+
+#~ msgid "Set Goal On Page Load"
+#~ msgstr "Conjunto de objetivos cargar la página"
+
+#~ msgid "Set Goal On Condition"
+#~ msgstr "Conjunto de objetivos con la condición"
+
+#~ msgid "Redirect Page On Condition"
+#~ msgstr "Página redirigida con la condición"
+
+#~ msgid "Redirect To Page/URL"
+#~ msgstr "Para redirigir página/URL"
+
+#~ msgid ""
+#~ "Proident aute dolore in. Bacon cupim ground round eu aute laboris...."
+#~ msgstr ""
+#~ "Proident aute dolore in. Bacon cupim ground round eu aute laboris...."

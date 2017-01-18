@@ -1,0 +1,1334 @@
+12-27-2016 @ 00:23:04 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=fred%40fredfish.com&name=fred+fish
+12-27-2016 @ 00:23:52 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=josh%40joshfootball.com&name=josh+football
+12-27-2016 @ 00:25:55 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=grish%40grueensex.com&name=grish
+12-27-2016 @ 00:28:00 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=admin%40froggyfranticness.com&name=froggy+franticness
+12-27-2016 @ 00:28:01 - API Response (make_request): stdClass Object
+(
+    [subscription] => stdClass Object
+        (
+            [id] => 341164074
+            [state] => inactive
+            [created_at] => 2016-12-27T00:28:01Z
+            [source] => 
+            [referrer] => 
+            [subscribable_id] => 23887
+            [subscribable_type] => form
+            [subscriber] => stdClass Object
+                (
+                    [id] => 79579585
+                    [first_name] => froggy franticness
+                    [email_address] => admin@froggyfranticness.com
+                    [state] => inactive
+                    [created_at] => 2016-12-27T00:28:01Z
+                    [fields] => stdClass Object
+                        (
+                            [last_name] => 
+                            [phone] => 
+                            [website_url] => 
+                        )
+
+                )
+
+        )
+
+)
+
+12-27-2016 @ 00:28:01 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=admin%40froggyfranticness.com&name=froggy+franticness
+12-27-2016 @ 00:28:02 - API Response (make_request): stdClass Object
+(
+    [subscription] => stdClass Object
+        (
+            [id] => 341164074
+            [state] => inactive
+            [created_at] => 2016-12-27T00:28:01Z
+            [source] => 
+            [referrer] => 
+            [subscribable_id] => 23887
+            [subscribable_type] => form
+            [subscriber] => stdClass Object
+                (
+                    [id] => 79579585
+                    [first_name] => froggy franticness
+                    [email_address] => admin@froggyfranticness.com
+                    [state] => inactive
+                    [created_at] => 2016-12-27T00:28:01Z
+                    [fields] => stdClass Object
+                        (
+                            [last_name] => 
+                            [phone] => 
+                            [website_url] => 
+                        )
+
+                )
+
+        )
+
+)
+
+12-27-2016 @ 01:18:32 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:32 - Transient Response (_get_api_response)
+12-27-2016 @ 01:18:32 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:32 - Transient Response (_get_api_response)
+12-27-2016 @ 01:18:44 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:44 - Transient Response (_get_api_response)
+12-27-2016 @ 01:18:44 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:44 - Transient Response (_get_api_response)
+12-27-2016 @ 01:18:56 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:56 - Transient Response (_get_api_response)
+12-27-2016 @ 01:18:56 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:18:56 - Transient Response (_get_api_response)
+12-27-2016 @ 01:20:41 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:42 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+12-27-2016 @ 01:20:42 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:42 - Transient Response (_get_api_response)
+12-27-2016 @ 01:20:45 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:45 - Transient Response (_get_api_response)
+12-27-2016 @ 01:20:45 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:45 - Transient Response (_get_api_response)
+12-27-2016 @ 01:20:58 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:58 - Transient Response (_get_api_response)
+12-27-2016 @ 01:20:59 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:20:59 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:34 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:34 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:34 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:34 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:44 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:44 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:45 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:45 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:57 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:57 - Transient Response (_get_api_response)
+12-27-2016 @ 01:22:57 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:22:57 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:18 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:18 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:18 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:18 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:19 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:19 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:19 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:19 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:22 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:22 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:22 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:22 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:30 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:30 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:30 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:30 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:35 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:35 - Transient Response (_get_api_response)
+12-27-2016 @ 01:24:35 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+12-27-2016 @ 01:24:35 - Transient Response (_get_api_response)
+12-29-2016 @ 12:47:21 - Error: cURL error 28: Connection time-out
+01-02-2017 @ 23:09:28 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-02-2017 @ 23:09:28 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-02-2017 @ 23:09:29 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-02-2017 @ 23:09:29 - Transient Response (_get_api_response)
+01-02-2017 @ 23:09:29 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-02-2017 @ 23:09:29 - Transient Response (_get_api_response)
+01-02-2017 @ 23:09:41 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-02-2017 @ 23:09:41 - Transient Response (_get_api_response)
+01-02-2017 @ 23:09:41 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-02-2017 @ 23:09:41 - Transient Response (_get_api_response)
+01-03-2017 @ 16:46:39 - API Request (make_request): https://api.convertkit.com/v3/forms/23887/subscribe?api_key=ERJye1W7eFgwGoIOKSf_Rg&email=test5%40growdevelopment.com&name=Swamp+Thing
+01-03-2017 @ 16:46:40 - API Response (make_request): stdClass Object
+(
+    [subscription] => stdClass Object
+        (
+            [id] => 344522513
+            [state] => inactive
+            [created_at] => 2017-01-03T16:46:40Z
+            [source] => 
+            [referrer] => 
+            [subscribable_id] => 23887
+            [subscribable_type] => form
+            [subscriber] => stdClass Object
+                (
+                    [id] => 80703876
+                    [first_name] => Swamp Thing
+                    [email_address] => test5@growdevelopment.com
+                    [state] => inactive
+                    [created_at] => 2017-01-03T16:46:40Z
+                    [fields] => stdClass Object
+                        (
+                            [last_name] => 
+                            [phone] => 
+                            [shirt_size] => 
+                            [website_url] => 
+                        )
+
+                )
+
+        )
+
+)
+
+01-03-2017 @ 16:57:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:08 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 16:57:08 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 16:57:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:09 - Transient Response (_get_api_response)
+01-03-2017 @ 16:57:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:09 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 16:57:09 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 16:57:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:09 - Transient Response (_get_api_response)
+01-03-2017 @ 16:57:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:09 - Transient Response (_get_api_response)
+01-03-2017 @ 16:57:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:57:09 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:07 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:07 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:07 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:07 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:07 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:07 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:08 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:10 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:10 - Transient Response (_get_api_response)
+01-03-2017 @ 16:59:10 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 16:59:10 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:08 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:08 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:08 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:08 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:11 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:11 - Transient Response (_get_api_response)
+01-03-2017 @ 17:01:11 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:01:11 - Transient Response (_get_api_response)
+01-03-2017 @ 17:03:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:08 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:09 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 17:03:09 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 17:03:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:09 - Transient Response (_get_api_response)
+01-03-2017 @ 17:03:09 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:09 - Transient Response (_get_api_response)
+01-03-2017 @ 17:03:12 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:12 - Transient Response (_get_api_response)
+01-03-2017 @ 17:03:12 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:03:12 - Transient Response (_get_api_response)
+01-03-2017 @ 17:05:13 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:05:13 - Transient Response (_get_api_response)
+01-03-2017 @ 17:05:13 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:05:13 - Transient Response (_get_api_response)
+01-03-2017 @ 17:07:14 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:07:14 - Transient Response (_get_api_response)
+01-03-2017 @ 17:07:14 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:07:14 - Transient Response (_get_api_response)
+01-03-2017 @ 17:09:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:09:16 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 17:09:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:09:16 - Transient Response (_get_api_response)
+01-03-2017 @ 17:11:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:11:16 - Transient Response (_get_api_response)
+01-03-2017 @ 17:11:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:11:16 - Transient Response (_get_api_response)
+01-03-2017 @ 17:13:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:13:16 - Transient Response (_get_api_response)
+01-03-2017 @ 17:13:16 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:13:16 - Transient Response (_get_api_response)
+01-03-2017 @ 17:15:17 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:15:19 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 17:15:19 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:15:19 - Transient Response (_get_api_response)
+01-03-2017 @ 17:17:18 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:17:18 - Transient Response (_get_api_response)
+01-03-2017 @ 17:17:18 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 17:17:18 - Transient Response (_get_api_response)
+01-03-2017 @ 21:58:53 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:58:54 - API Response (_get_api_response): Array
+(
+    [forms] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 23887
+                    [name] => Newsletter Form
+                    [created_at] => 2016-02-10T02:44:21Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/23887
+                    [embed_js] => https://api.convertkit.com/v3/forms/23887.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/23887.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [1] => Array
+                (
+                    [id] => 24139
+                    [name] => Take My Class
+                    [created_at] => 2016-02-11T04:03:34Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/24139
+                    [embed_js] => https://api.convertkit.com/v3/forms/24139.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/24139.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Take My Class
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [2] => Array
+                (
+                    [id] => 36594
+                    [name] => Landing Page Class
+                    [created_at] => 2016-03-28T17:17:49Z
+                    [type] => hosted
+                    [url] => https://app.convertkit.com/ancient-cherry-5193/HNIXGGPC
+                    [embed_js] => https://api.convertkit.com/v3/forms/36594.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/36594.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [3] => Array
+                (
+                    [id] => 57291
+                    [name] => The Global Form
+                    [created_at] => 2016-05-24T13:54:52Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/57291
+                    [embed_js] => https://api.convertkit.com/v3/forms/57291.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/57291.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => The Global Form
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [4] => Array
+                (
+                    [id] => 75368
+                    [name] => Untitled
+                    [created_at] => 2016-07-12T13:51:53Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/75368
+                    [embed_js] => https://api.convertkit.com/v3/forms/75368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/75368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Join the newsletter
+                    [description] => Subscribe to get our latest content by email.
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+            [5] => Array
+                (
+                    [id] => 107368
+                    [name] => Modal Newsletter
+                    [created_at] => 2016-10-03T21:43:03Z
+                    [type] => embed
+                    [url] => https://app.convertkit.com/landing_pages/107368
+                    [embed_js] => https://api.convertkit.com/v3/forms/107368.js?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [embed_url] => https://api.convertkit.com/v3/forms/107368.html?api_key=ERJye1W7eFgwGoIOKSf_Rg
+                    [title] => Modal Newsletter
+                    [description] => <p>Subscribe to get our latest content by email.</p>
+                    [sign_up_button_text] => Subscribe
+                    [success_message] => Success! Now check your email to confirm your subscription.
+                )
+
+        )
+
+)
+
+01-03-2017 @ 21:58:54 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:58:54 - Transient Response (_get_api_response)
+01-03-2017 @ 21:59:25 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:59:25 - Transient Response (_get_api_response)
+01-03-2017 @ 21:59:25 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:59:25 - Transient Response (_get_api_response)
+01-03-2017 @ 21:59:53 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:59:53 - Transient Response (_get_api_response)
+01-03-2017 @ 21:59:54 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 21:59:54 - Transient Response (_get_api_response)
+01-03-2017 @ 22:01:25 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 22:01:25 - Transient Response (_get_api_response)
+01-03-2017 @ 22:01:25 - API Request (_get_api_response): https://api.convertkit.com/v3/forms?api_key=ERJye1W7eFgwGoIOKSf_Rg
+01-03-2017 @ 22:01:25 - Transient Response (_get_api_response)
