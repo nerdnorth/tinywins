@@ -456,8 +456,8 @@ html {
   font-family: 'levels-icons';
   font-style: normal;
   font-weight: normal;
-  src: url('fonts/levels-icons.eot?4kz4sn#iefix') format('embedded-opentype'), url('fonts/levels-icons.ttf?4kz4sn') format('truetype'), url('fonts/levels-icons.woff?4kz4sn') format('woff'), url('fonts/levels-icons.svg?4kz4sn#levels-icons') format('svg');
   src: url('fonts/levels-icons.eot?4kz4sn');
+  src: url('fonts/levels-icons.eot?4kz4sn#iefix') format('embedded-opentype'), url('fonts/levels-icons.ttf?4kz4sn') format('truetype'), url('fonts/levels-icons.woff?4kz4sn') format('woff'), url('fonts/levels-icons.svg?4kz4sn#levels-icons') format('svg');
 }
 
 [class^='icon-'],
@@ -496,8 +496,8 @@ select,
 textarea {
   color: #404040;
   font-family: sans-serif;
-  font-size: 1rem;
   font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -532,8 +532,8 @@ address {
 pre {
   background: #EEE;
   font-family: 'Courier 10 Pitch', Courier, monospace;
-  font-size: .9375rem;
   font-size: 15px;
+  font-size: .9375rem;
   line-height: 1.6;
   margin-bottom: 1.6em;
   max-width: 100%;
@@ -546,8 +546,8 @@ kbd,
 tt,
 var {
   font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
-  font-size: .9375rem;
   font-size: 15px;
+  font-size: .9375rem;
 }
 
 abbr,
@@ -640,8 +640,8 @@ input[type='submit'] {
   border-radius: 3px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 15px 17px rgba(255, 255, 255, .5), inset 0 -5px 12px rgba(0, 0, 0, .05);
   color: rgba(0, 0, 0, .8);
-  font-size: .75rem;
   font-size: 12px;
+  font-size: .75rem;
   line-height: 1;
   padding: .6em 1em .4em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
@@ -763,8 +763,8 @@ textarea {
 }
 
 .main-navigation {
-  background: linear-gradient(to right, #FF9800, #D84315);
   background: -webkit-linear-gradient( left , #FF9800, #D84315);
+  background: linear-gradient(to right, #FF9800, #D84315);
   left: 0;
   padding: 10px 0 12px 0;
   position: absolute;
@@ -836,12 +836,12 @@ textarea {
 }
 
 .main-navigation ul ul a {
-  background: #FFF;
   background: #FF9800;
+  background: #FFF;
   color: #888;
   padding: 8px 15px;
-  width: 100%;
   width: 200px;
+  width: 100%;
 }
 
 .main-navigation ul ul a:hover {
@@ -927,8 +927,8 @@ textarea {
   clip: auto !important;
   color: #21759B;
   display: block;
-  font-size: .875rem;
   font-size: 14px;
+  font-size: .875rem;
   font-weight: bold;
   height: auto;
   left: 5px;
@@ -1172,8 +1172,8 @@ ol.comment-list {
 }
 
 .bypostauthor {
-  background: linear-gradient(to bottom right, #FF9800, #D84315);
   background: -webkit-linear-gradient( top left, #FF9800, #D84315);
+  background: linear-gradient(to bottom right, #FF9800, #D84315);
   color: #FFF;
   display: block;
 }
@@ -1427,8 +1427,8 @@ ol {
 .container--grid {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
   max-width: 68em;
+  max-width: 800px;
 }
 
 .container--grid::after {
@@ -1472,8 +1472,8 @@ ol {
 }
 
 .header:before {
-  background: linear-gradient(to right, #FF9800, #D84315);
   background: -webkit-linear-gradient( left , #FF9800, #D84315);
+  background: linear-gradient(to right, #FF9800, #D84315);
   bottom: 0;
   content: '';
   height: 1em;
@@ -1728,8 +1728,8 @@ h5 {
 }
 
 .checkbox-list__item:before {
-  background: -webkit-linear-gradient( top , #FF9800, #D84315);
   background: linear-gradient(to bottom, #FF9800, #D84315);
+  background: -webkit-linear-gradient( top , #FF9800, #D84315);
   border-radius: 100%;
   color: #FFF;
   content: '\e600';
@@ -1853,10 +1853,10 @@ h5 {
  * Buttons
  */
 .button {
-  background: -webkit-linear-gradient( top , #FF9800, #D84315);
   background: linear-gradient(to bottom, #FF9800, #D84315);
-  border: 1px solid #FF9800;
+  background: -webkit-linear-gradient( top , #FF9800, #D84315);
   border: none;
+  border: 1px solid #FF9800;
   border-radius: 4px;
   color: #FFF;
   display: block;
@@ -1875,21 +1875,21 @@ h5 {
 }
 
 .button:active {
-  background: linear-gradient(to top, #CC7A00, #AA3510);
   background: -webkit-linear-gradient( bottom , #CC7A00, #AA3510);
+  background: linear-gradient(to top, #CC7A00, #AA3510);
   position: relative;
   top: 2px;
 }
 
 .button--bright {
-  background: linear-gradient(to bottom, #FFB74D, #FF9800);
   background: -webkit-linear-gradient( top , #FFB74D, #FF9800);
+  background: linear-gradient(to bottom, #FFB74D, #FF9800);
   border: 1px solid #FFB74D;
 }
 
 .button--bright:active {
-  background: linear-gradient(to top, #FFA21A, #CC7A00);
   background: -webkit-linear-gradient( bottom , #FFA21A, #CC7A00);
+  background: linear-gradient(to top, #FFA21A, #CC7A00);
 }
 
 /**
@@ -2300,8 +2300,8 @@ h5 {
 }
 
 .package__multiple-choices-link:hover {
-  background: linear-gradient(to right, #FF9800, #D84315);
   background: -webkit-linear-gradient( left , #FF9800, #D84315);
+  background: linear-gradient(to right, #FF9800, #D84315);
   color: #FFF;
 }
 
@@ -2351,8 +2351,8 @@ h5 {
 .package__feature-item {
   border: 2px solid rgba(255, 255, 255, .05);
   border-radius: 8px;
-  color: #FFF;
   color: #FFD18C;
+  color: #FFF;
   cursor: default;
   display: block;
   font-size: 16px;
@@ -2790,15 +2790,10 @@ p.footer-heading {
   background-color: #E8EAEE;
 }
 
-#rcp_discount_code_wrap {
-  margin-left: 24px;
-  margin-top: 16px;
-}
-
 .rcp_button,
 #rcp_submit {
-  background: -webkit-linear-gradient( top , #FFB74D, #FF9800);
   background: linear-gradient(to bottom, #FFB74D, #FF9800);
+  background: -webkit-linear-gradient( top , #FFB74D, #FF9800);
   border: 1px solid #FFB74D;
   border-radius: 4px;
   box-shadow: inset 0 -2px 0 0 rgba(255, 152, 0, .5);
@@ -2902,4 +2897,8 @@ p.footer-heading {
 
 .card-group p:last-child {
   padding-right: 0;
+}
+
+#rcp_discount_code_wrap {
+  margin-bottom: 1.5rem;
 }
